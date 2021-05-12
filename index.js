@@ -23,7 +23,7 @@ const app = express();
 app.use(express.json());
 
 app.get('/hello', function (req, res) {
-  res.send('Tudo funcionando perfeito. Belazinha!!!!');
+  res.send('Tudo funcionando perfeito!!!!');
 });
 
 const mensagens = ['Essa é a primeira mensagem!', 'Essa é a segunda mensagem!'];
